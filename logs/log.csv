@@ -1,0 +1,66 @@
+Modelname,STrain,SValid,Pclass,Sex,Age,SibSp,Parch,Fare,C,Q,S,Name,Ticket,Cabin,Embarked,Age_Code,Age_Code_N,SPublic,Title_Code,Embarked_Code,Search,CV,Bestparams,Title,FareBin,Fare_Code,Vestparams,Family
+0,RandomForestClassifier,0.9534510433386838,0.7910447761194029,o,o,o,o,o,o,o,o,o,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+1,RandomForestClassifier,0.9518459069020868,0.7985074626865671,o,o,o,o,o,o,o,o,o,x,x,x,x,o,x,x,x,x,x,x,x,x,x,x,x,x
+2,RandomForestClassifier,0.9534510433386838,0.8134328358208955,o,o,o,o,o,o,o,o,o,x,x,x,x,o,x,x,x,x,x,x,x,x,x,x,x,x
+3,RandomForestClassifier,0.9534510433386838,0.8022388059701493,o,o,o,o,o,o,o,o,o,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+4,RandomForestClassifier,0.9486356340288924,0.8022388059701493,o,o,o,o,o,o,o,o,o,x,x,x,x,o,4.0,x,x,x,x,x,x,x,x,x,x,x
+5,RandomForestClassifier,0.9534510433386838,0.8134328358208955,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,0.772,x,x,x,x,x,x,x,x,x,x
+6,RandomForestClassifier,0.9502407704654896,0.8134328358208955,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,x,x,x,x,x,x,x,x,x
+7,RandomForestClassifier,0.9518459069020868,0.8022388059701493,o,o,o,o,o,o,o,o,o,x,x,x,x,o,5,x,x,x,x,x,x,x,x,x,x,x
+8,RandomForestClassifier,0.9534510433386838,0.8022388059701493,o,o,o,o,o,o,o,o,o,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,x,x
+9,RandomForestClassifier,0.9438202247191012,0.8171641791044776,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,o,x,x,x,x,x,x,x,x
+10,RandomForestClassifier,0.9486356340288924,0.8246268656716418,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,o,o,x,x,x,x,x,x,x,x
+11,RandomForestClassifier,0.9293739967897272,0.835820895522388,o,o,o,o,o,o,x,x,x,o,o,o,o,x,3,0.706,o,x,RS,5,"{'n_estimators': 1200, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 10, 'bootstrap': x}",o,x,x,x,x
+12,RandomForestClassifier,0.9357945425361156,0.8208955223880597,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,5,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 90, 'bootstrap': False}",x,o,x,x,x
+13,RandomForestClassifier,0.9357945425361156,0.8208955223880597,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,5,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 90, 'bootstrap': False}",x,x,x,x,x
+14,RandomForestClassifier,0.9117174959871588,0.8171641791044776,o,o,o,o,o,o,o,o,o,o,o,o,o,o,3,x,o,o,RS,5,"{'n_estimators': 1800, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 110, 'bootstrap': False}",o,o,x,x,x
+15,RandomForestClassifier,0.9117174959871588,0.8171641791044776,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,x,RS,5,"{'n_estimators': 1800, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 110, 'bootstrap': False}",x,x,x,x,x
+16,RandomForestClassifier,0.9117174959871588,0.8171641791044776,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,x,RS,5,"{'n_estimators': 1800, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 110, 'bootstrap': False}",x,x,x,x,x
+17,RandomForestClassifier,0.9117174959871588,0.8171641791044776,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,x,RS,5,"{'n_estimators': 1800, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'auto', 'max_depth': 110, 'bootstrap': False}",x,x,x,x,x
+18,RandomForestClassifier,0.9058988764044944,0.8435754189944135,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,3,"{'n_estimators': 600, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': True}",x,x,x,x,x
+19,RandomForestClassifier,0.9058988764044944,0.8435754189944135,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,3,"{'n_estimators': 600, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': True}",x,x,x,x,x
+20,RandomForestClassifier,0.9058988764044944,0.8435754189944135,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,RS,3,"{'n_estimators': 600, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': True}",x,x,x,x,x
+21,RandomForestClassifier,0.9058988764044944,0.8435754189944135,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,0.791,x,x,RS,3,"{'n_estimators': 600, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': True}",x,x,x,x,x
+22,RandomForestClassifier,0.9073033707865168,0.8379888268156425,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,BS,3,"OrderedDict([('bootstrap', True), ('max_depth', None), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 200)])",x,x,x,x,x
+23,RandomForestClassifier,0.8890449438202247,0.8324022346368715,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,3,"{'n_estimators': 1000, 'min_samples_split': 10, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 10, 'bootstrap': True}",x,x,o,x,x
+24,RandomForestClassifier,0.9030898876404494,0.8435754189944135,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,BS,3,"OrderedDict([('bootstrap', True), ('max_depth', 40), ('max_features', 'auto'), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 2000)])",x,x,x,x,x
+25,RandomForestClassifier,0.9058988764044944,0.8435754189944135,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,RS,3,"{'n_estimators': 600, 'min_samples_split': 10, 'min_samples_leaf': 1, 'max_features': 'sqrt', 'max_depth': 110, 'bootstrap': True}",x,x,x,x,x
+26,RandomForestClassifier,0.9073033707865168,0.8379888268156425,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,BS,3,"OrderedDict([('bootstrap', True), ('max_depth', 60), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 200)])",x,x,x,x,x
+27,RandomForestClassifier,0.8862359550561798,0.888268156424581,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,0.788,x,x,BS,3,"OrderedDict([('bootstrap', True), ('max_depth', 30), ('max_features', 'sqrt'), ('min_samples_leaf', 4), ('min_samples_split', 10), ('n_estimators', 1800)])",x,x,x,x,x
+28,RandomForestClassifier,0.9115,0.9106,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,0.797,x,x,BS,3,"OrderedDict([('bootstrap', True), ('max_depth', 110), ('max_features', 'auto'), ('min_samples_leaf', 1), ('min_samples_split', 10), ('n_estimators', 200)])",x,x,x,x,x
+29,ETC,0.9803370786516854,0.8212290502793296,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,o,x,x,x,x,x,o,x,x
+30,ETC,0.9803370786516854,0.7988826815642458,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,o,x,x
+31,ETC,0.9803370786516854,0.8212290502793296,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,x,o,x,x,x,x,x,o,x,x
+32,ETC,0.9803370786516854,0.7821229050279329,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,x,o,x,x,x,x,x,x,x,x
+33,ETC,0.9803370786516854,0.8100558659217877,o,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,x,o,x,x,x,x,x,o,x,x
+34,ETC,0.9691011235955056,0.7877094972067039,o,o,o,o,o,x,x,x,x,x,x,x,x,o,3,x,x,o,x,x,x,x,x,o,x,x
+35,ETC,0.8651685393258427,0.8268156424581006,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,x,o,RS,5,x,x,x,o,"{'n_estimators': 200, 'min_samples_split': 2, 'min_samples_leaf': 4, 'max_features': 'auto', 'max_depth': 20}",x
+36,Ensemble,0.9932659932659932,0.9932659932659932,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,x,o,x,x,x,x,x,x,x,x
+37,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+38,GBC,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x,x
+39,GBC,0.8426966292134831,0.7932960893854749,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,o,x,x,x,x,x,x,x,o
+40,GBC,0.8426966292134831,0.7932960893854749,o,o,o,x,x,o,o,o,o,x,x,x,x,o,3,x,x,o,x,x,x,x,x,x,x,o
+41,GBC,0.8356741573033708,0.8100558659217877,o,o,o,x,x,x,o,o,o,x,x,x,x,x,3,x,x,o,x,x,x,x,x,x,x,o
+42,GBC,0.8356741573033708,0.8100558659217877,o,o,o,x,x,x,o,o,o,x,x,x,x,x,3,x,x,x,x,x,x,x,x,x,x,o
+43,GBC,0.8960674157303371,0.8212290502793296,o,o,o,x,x,x,o,o,o,x,x,x,x,x,3,x,o,x,BS,5,x,x,x,x,x,o
+44,GBC,0.8960674157303371,0.8212290502793296,o,o,o,x,x,x,o,o,o,x,x,x,x,x,3,x,o,x,BS,5,x,x,x,x,x,o
+45,GBC,0.8960674157303371,0.8212290502793296,o,o,o,x,x,x,o,o,o,x,x,x,x,x,3,x,o,x,BS,5,"OrderedDict([('max_depth', 50), ('max_features', 'sqrt'), ('min_samples_leaf', 4), ('min_samples_split', 10), ('n_estimators', 200)])",x,x,x,x,o
+46,ETC,0.9831460674157303,0.8268156424581006,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,o,o,x,x,x,x,x,o,x,o
+47,ETC,0.9831460674157303,0.8044692737430168,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,x,x,x,x,x,x,o,x,o
+48,ETC,0.9831460674157303,0.8156424581005587,o,o,o,o,o,o,x,x,x,x,x,x,x,o,3,x,o,x,x,x,x,x,x,o,x,o
+49,ETC,0.9831460674157303,0.8212290502793296,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,o,o,x,x,x,x,x,o,x,o
+50,ETC,0.9831460674157303,0.8324022346368715,o,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,o,x,o
+51,ETC,0.9831460674157303,0.8100558659217877,o,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,o,x,x
+52,ETC,0.9831460674157303,0.8044692737430168,o,o,o,x,x,o,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,o,x,o
+53,ETC,0.9831460674157303,0.8156424581005587,x,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,o,x,o
+54,ETC,0.9831460674157303,0.7821229050279329,o,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,x,x,o
+55,ETC,0.9719101123595506,0.7877094972067039,o,o,o,o,o,x,x,x,x,x,x,x,x,x,3,x,o,o,x,x,x,x,x,o,x,o
+56,ETC,0.8567415730337079,0.8212290502793296,o,o,o,o,o,o,x,x,x,x,x,x,x,x,3,x,o,o,BS,5,x,x,x,o,"OrderedDict([('max_depth', 40), ('max_features', 'sqrt'), ('min_samples_leaf', 4), ('min_samples_split', 10), ('n_estimators', 600)])",o
+57,RFC,0.9691011235955056,0.7877094972067039,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,5,x,x,x,x,x,x
+58,RFC,0.9171348314606742,0.8379888268156425,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,BS,5,x,x,x,x,"OrderedDict([('max_depth', 10), ('max_features', 'sqrt'), ('min_samples_leaf', 1), ('min_samples_split', 5), ('n_estimators', 1600)])",x
+59,Ensemble,0.9932659932659933,0.9932659932659933,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x
+60,XGB,0.8918539325842697,0.8156424581005587,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x
+61,Ensemble,0.8058361391694725,0.8058361391694725,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x
+62,Ensemble,0.9932659932659933,0.9932659932659933,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x
+63,Ensemble,0.9438832772166106,0.9438832772166106,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x
+64,Ensemble,0.9887766554433222,0.8260381593714927,o,o,o,o,o,o,o,o,o,x,x,x,x,o,3,x,x,x,x,x,x,x,x,x,x,x

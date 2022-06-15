@@ -1,0 +1,1 @@
+scriptsフォルダには、汎用的なpythonファイルを配置します。例えば convert_to_feather.py ファイルは、csvファイルをfeather形式のファイルに変換します。
